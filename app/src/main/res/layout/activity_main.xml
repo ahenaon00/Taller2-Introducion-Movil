@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/contactsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:src="@drawable/contacts___copy__2_"
+        app:layout_constraintBottom_toTopOf="@+id/cameraButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/cameraButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:src="@drawable/camera___copy__2_"
+        app:layout_constraintBottom_toTopOf="@+id/osmButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactsButton" />
+
+    <ImageButton
+        android:id="@+id/osmButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:src="@drawable/osmap___copy__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
