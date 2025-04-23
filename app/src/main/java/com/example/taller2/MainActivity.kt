@@ -21,11 +21,8 @@ class MainActivity : AppCompatActivity() {
         binding.cameraButton.setOnClickListener {
             startActivity(Intent(this, CamaraActivity::class.java))
         }
-        /*
         binding.osmButton.setOnClickListener {
             startActivity(Intent(this, OsmActivity::class.java))
         }
-
-         */
     }
 }

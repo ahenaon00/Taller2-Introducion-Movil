@@ -2,4 +2,7 @@
     <string name="app_name">Taller2</string>
     <string name="gallery">Gallery</string>
     <string name="camera">Camera</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="dir_hint">Dirección:</string>
+    <string name="pintar_rutas">Pintar Rutas</string>
 </resources>
